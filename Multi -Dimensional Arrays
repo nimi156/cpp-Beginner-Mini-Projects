@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main ()
+{ //[2] = row, while [3] colums
+    int khalid [2][3]={{2,3,4},{8,9,10}};
+//    0 | 1 | 2 |
+//0 |{2,  3,  4  }
+//1 |{8,  9,  10 }
+
+
+cout << khalid[0][2];
+}
+//output is 4
