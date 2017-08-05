@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int khalid[1001]; // declaring a array with 1001 elements 
+    cout<< "Element-----Value"<<endl; //printing the title
+    for(int x = 0; x <=1000; x++) //forloop
+    {
+        khalid[x] = 101;
+        cout<< x << "-------------"<<khalid[x]<<endl;
+    }
+}
+
+// The output is that the value of Element increaase by 1 for everytime it loops
+// Looping through each array element and setting the value to 99
