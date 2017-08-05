@@ -1,0 +1,16 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+int tuna[5]={20,54,76,832,546}; // tuna is an array holding 5 values,To create a varrible you start off by:
+                                // declaring a type " int" then name the varible "tuna" 
+                                //then in brackets you declare how many varible you want to hold "[5] then = { and values you want to put into aray};
+int sum = 0; // creating a varrible called sum
+
+for(int x=0; x < 5; x++) // forloop
+{
+sum +=tuna[x];  // looping through sum and adding up the varible in tuna one at a time
+cout << sum <<endl;
+}
+
+}
