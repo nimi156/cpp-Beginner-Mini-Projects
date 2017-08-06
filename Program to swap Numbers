@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int a=5,b=10, temp;                 // created three varibles of type int
+    cout << "Before swapping" <<endl;
+    cout << "a =" << a;
+    cout << "b = " << b <<endl;
+    temp = a; // the int varible store the value of a
+    a=b; // the value sotred in a is now equal to b
+    b=temp; // the value stored in b is now in temp
+    cout<<"\nAfter swapping " << endl;
+    cout<< " a= " <<a<< "b = " << b << endl;
+}
+
+//output
+// Before Swapping
+// a=5 , b=10
+//After Swapping
+// a=10 , b=5
