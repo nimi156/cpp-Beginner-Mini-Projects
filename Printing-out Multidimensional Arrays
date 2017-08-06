@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+
+int khalid[2][3]={{1,2,3} ,{7,8,9}};    //creating a Multidimensoinal array
+
+for(int row=0; row < 2; row++) //forloop to print  rows
+{
+    for(int colum = 0; colum <3; colum ++) //forloop to print  colums
+    {
+        cout<<khalid [row] [colum] <<" " ; // printing them out 1 at a time
+
+
+           }
+                cout<< endl; // move to the nextline after loop
+}
+}
+
+//output
+//1 2 3
+//7 8 9
