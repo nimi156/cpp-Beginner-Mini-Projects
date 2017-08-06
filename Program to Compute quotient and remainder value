@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int divisor, divided, quotient, remainder; // declaring for int varibles
+    cout << "Enter divided  :   "; // user enters the first value which they want to divide by
+    cin >> divided; // cin to allow them to enter input
+
+    cout <<"Enter divisor   : " ;   // user enter what number they want to divde by
+    cin >> divisor; // cin to allow them to input the number
+
+    quotient = divided / divisor;   // useing the "/" operator which is the keyword for divde
+    remainder = divided % divisor; // using the % modulos opperator we find out the remainder
+
+    cout<<"Quotient = " << remainder;
+
+
+}
+// output
+//asks users for two values 1 which the user wants to divide and the secound is by what number
+// using the % modulos opperator the program outputs the remainder
