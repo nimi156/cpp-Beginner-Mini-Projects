@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+
+int FirstNumber,SecondNumber,SumOfTwoNumbers;
+cout<< "Enter Two integer values" << endl;
+    //sum of two numbers is stored in variable SumOfTwoNumbers
+cin >>FirstNumber >> SecondNumber;
+SumOfTwoNumbers = FirstNumber + SecondNumber;
+
+    //Prints Sum
+cout<<FirstNumber << " + " <<SecondNumber << " = " <<SumOfTwoNumbers ;
+
+}
+//output adds two intergers up and shows the result.
