@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    int UserEnteredNumber;  // Here we are creating a varible that holds interger values
+    cout<<"Enter an Interger:       ";  // we are outputing text to the user using the console output cout
+    cin >>UserEnteredNumber; // cin accepts user entered input and stores it in the varible created earlyer
+    cout <<"you entered the number :    " <<UserEnteredNumber; // prints the number back out.
+
+
+
+}
