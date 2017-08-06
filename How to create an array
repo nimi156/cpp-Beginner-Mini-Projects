@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+//what type of value will the arrau hold "int"
+//what will be the arrays name "khalid"
+//how many values will it hold "[5]"
+//what those values be equal too? "={66,75,5341,43,99}
+    int khalid [5]={66,75,5341,43,99};
+    cout<<khalid[2]<<endl;
+
+
+
+
+}
+//output is 5341
