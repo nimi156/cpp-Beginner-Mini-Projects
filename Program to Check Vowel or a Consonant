@@ -1,0 +1,19 @@
+# include <iostream>
+using namespace std;
+
+int main ()
+{
+    char c; // stores 1 charcter in the varible c
+    int IsLowerCaseVowel, IsUpperCaseVowl; 
+    cout <<"Enter an alphabet:  ";
+    cin >> c;
+// Evaluates to 1 (true) if c is a lowercase vowl
+    IsLowerCaseVowel=(c=='a'|| c=='e'||c=='i'||c=='o'|| c=='u');
+
+    IsUpperCaseVowl=(c=='A'|| c=='E'|| c=='I'|| c=='o'|| c=='u');
+// Evaluates to 1(true) if c is an uppercase vowel
+    if(IsLowerCaseVowel || IsUpperCaseVowl)
+        cout<< c << "is a voewl";
+    else
+        cout<< c <<" is a Consonant";
+}
