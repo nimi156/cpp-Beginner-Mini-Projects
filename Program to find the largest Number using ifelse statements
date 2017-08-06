@@ -14,5 +14,8 @@ int main()
         cout<<"largest number : " << n2;
     else                                //else print out n3
         cout <<"Largest Number : " <<n3;
-
+    if (n3 >= n1 && n3 >=n2)
+    {
+    cout<<"largest number:  "<<n3;
+    }
 }
