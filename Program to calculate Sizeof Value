@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<" Size of Char " <<sizeof(char) << "bytes" <<endl;
+    cout<<" Size of Char " <<sizeof(int) << "bytes" <<endl;
+    cout<<" Size of Char " <<sizeof(float) << "bytes" <<endl;
+    cout<<" Size of Char " <<sizeof(double) << "bytes" <<endl;
+
+
+}
+//output
+//the program prints the size of value in bytes of objects representation by types
